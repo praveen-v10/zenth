@@ -110,7 +110,7 @@ function Hero() {
                   <div className="flex space-x-8 pt-6">
                   {navigationData.map((item, index) => (
 
-<button key={index} className="bg-transparent bg-teal-700 h-[40px] font-MO  text-white py-2 px-4 border font-normal">
+<button key={index} className="bg-transparent  bg-white border-[#008080] text-[#008080] h-[40px] font-MO py-2 px-4 border font-normal">
     <a href={item.href}>
     {item.name}
     </a>
@@ -173,7 +173,7 @@ function Hero() {
             <div className="flex space-x-8 justify-center pt-10">
             {navigationDa.map((item, index) => (
 
-<button key={index} className="bg-transparent bg-teal-700 h-[40px] font-MO  text-white py-2 px-4 border font-normal">
+<button key={index} className="bg-transparent bg-white border-[#008080] text-[#008080] h-[40px] font-MO  py-2 px-4 border font-normal">
     <a href={item.href}>
     {item.name}
     </a>
