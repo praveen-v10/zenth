@@ -135,16 +135,16 @@ function Hero() {
 
 
 
-              <div className="w-[60%] select-none">
+              <div className="w-[60%]">
 
               <video
-                className="w-[100%]"
+                className="w-[100%] select-none "
                 autoPlay
                 loop
                 muted
                 playsInline
-                
-             
+                onContextMenu={(e) => e.preventDefault()}
+                    
             >
                 <source src='https://firebasestorage.googleapis.com/v0/b/gift-c0314.appspot.com/o/Next-Gen%202.mp4?alt=media&token=d203e8e9-4078-4c66-aa5d-2c62d0d7fdac' type="video/mp4" />
                
@@ -217,9 +217,8 @@ function Hero() {
                 autoPlay
                 loop
                 muted
-                playsInline
-                
-             
+                playsInline 
+                onContextMenu={(e) => e.preventDefault()}
             >
                 <source src='https://firebasestorage.googleapis.com/v0/b/gift-c0314.appspot.com/o/Next-Gen%202.mp4?alt=media&token=d203e8e9-4078-4c66-aa5d-2c62d0d7fdac' type="video/mp4" />
                
