@@ -133,8 +133,25 @@ function Hero() {
                 </div>
               </div>
 
-              <div className="w-[60%]">
-                <img src=" /assets/hero1.png" className="" alt="" />
+
+
+              <div className="w-[60%] select-none">
+
+              <video
+                className="w-[100%]"
+                autoPlay
+                loop
+                muted
+                playsInline
+                
+             
+            >
+                <source src='https://firebasestorage.googleapis.com/v0/b/gift-c0314.appspot.com/o/Next-Gen%202.mp4?alt=media&token=d203e8e9-4078-4c66-aa5d-2c62d0d7fdac' type="video/mp4" />
+               
+            </video>
+
+                {/* <img src=" /assets/hero1.png" className="" alt="" /> */}
+
               </div>
             </div>
           </div>
@@ -195,7 +212,18 @@ function Hero() {
             </div>
 
             <div className="pt-4">
-              <img src=" /assets/hero1.png" className="" alt="" />
+            <video
+                className="w-[100%]"
+                autoPlay
+                loop
+                muted
+                playsInline
+                
+             
+            >
+                <source src='https://firebasestorage.googleapis.com/v0/b/gift-c0314.appspot.com/o/Next-Gen%202.mp4?alt=media&token=d203e8e9-4078-4c66-aa5d-2c62d0d7fdac' type="video/mp4" />
+               
+            </video>
             </div>
           </div>
         </div>
